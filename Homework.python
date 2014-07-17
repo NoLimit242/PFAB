@@ -1,0 +1,36 @@
+import math
+
+
+first = "Alejandro";
+
+last = "Johnson";
+
+age = 22;
+
+print first,last,age;
+
+sideA = 12.55;
+
+sideB = 17.85;
+
+sideC = (sideA * sideA) + (sideB * sideB);
+
+sideC = math.sqrt(sideC);
+
+print sideC;
+
+operand1 = 95;
+
+operand2 = 64.5;
+
+print operand1 + operand2;
+
+print operand1 - operand2;
+
+print operand1 * operand2;
+
+print operand1 / operand2;
+
+print operand1 % operand2;
+
+# I made "operand1" & "operand2" variables so if the value of any of them needed to be change I can change them without having to go into each line in the code and make changes.
