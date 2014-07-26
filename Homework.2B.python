@@ -1,0 +1,5 @@
+priceofitem = input("What is the price of the Item")
+
+Salestaxoftheitem= input( " What is the sales tax of the item (expressed as 0.XX)")
+
+print"The full price of the item is,", priceofitem+Salestaxoftheitem
